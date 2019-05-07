@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device.width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+    <a href="https://www.google.com.">Google</a>
+    <a id="alvo" href="https://www.facebook.com">Facebook</a>
+    <a href="https://instagram.com">Instagram</a>
+    <a id="codeLab" href="https://codelab.ime.usp.br">CodeLab</a>
+
+    <button id='btn'>Clica em mim</button>
+    
+    <script>
+
+    const alvoLink = document.querySelector("#alvo");
+    let codelabInnerHTML = document.querySelector("#codeLab").innerHTML;
+    const links = document.querySelectorAll("a");
+    const primeiroLink = document.querySelector("a");
+    const btn = document.querySelector("#btn");
+
+
+alvoLink.href = "https://www.ime.usp.br";
+primeiroLink.innerHTML = "<h1>Google</h1>"; //altera o valor dentro da pagina
+
+    btn.onclick = () =>{
+    btn.innerHTML = "Fui clicado";
+    location.href = "https://www.google.com";
+}
+
+console.log(typeof codelabInnerHTML);
+console.log(links);
+console.log(primeiroLink);
+console.log(document);    
+
+    
+    </script>
+</body>
+</html>

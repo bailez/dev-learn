@@ -7,3 +7,5 @@ console.log("x é maior que 5")
 else{
     console.log("x é menor")
 }
+//test
+//test2

@@ -25,9 +25,10 @@
 alvoLink.href = "https://www.ime.usp.br";
 primeiroLink.innerHTML = "<h1>Google</h1>"; //altera o valor dentro da pagina
 
-    btn.onclick = () =>{
-    btn.innerHTML = "Fui clicado";
-    location.href = "https://www.google.com";
+    btn.onmouseover = () =>{
+        console.log("teste");
+        btn.innerHTML = "Fui clicado";
+  //  location.href = "https://www.google.com";
 }
 
 console.log(typeof codelabInnerHTML);

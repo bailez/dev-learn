@@ -1,0 +1,13 @@
+{
+    "para": "09/abr",
+    "o que": {
+        "exercícios de fixação": [
+          "moeda.js",
+          "par_impar.js",
+          "strings.js"
+        ],
+        "exercícios de aprofundamento": [
+          "array_warmup.js"
+        ]
+    }
+}

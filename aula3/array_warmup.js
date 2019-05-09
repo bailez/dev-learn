@@ -21,8 +21,10 @@ console.log(v)
 
 const ehPar = (x) => x%2 == 0;
 
-let w = v.filter(ehPar)
 
+console.log(ehPar(2))
+let w = v.filter(ehPar)
+console.log(typeof(ehPar))
 console.log(w)
 
 // (b)

@@ -1,3 +1,2 @@
 # dev-learn
-Exercícios do curso dev-learn, IME-USP.
-<href ="https://codelab.ime.usp.br/#/">USP CodeLab</href>
+Exercícios do curso dev-learn oferecido pela [USPCodeLab](https://codelab.ime.usp.br/#/), no IME-USP.

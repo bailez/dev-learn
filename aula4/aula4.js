@@ -28,8 +28,10 @@ const carro = {
 
 }
 carro.proprietario.idade++;
-console.log(carro)
+console.log(carro.proprietario.nome)
 //console.log(typeof(carro.proprietario.endereco.logradouro))
+
+
 /*
 
 forEach : callback que é chamada para cada um
